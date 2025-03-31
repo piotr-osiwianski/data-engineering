@@ -1,0 +1,8 @@
+name,email
+Piotr,osiwianski@example.com
+Piotr,kowalski@example.com
+Anna,
+,osiwianska@example.com
+Ewa,kowalska@example.com
+Jan,invalid-email
+John,smith@example.com
