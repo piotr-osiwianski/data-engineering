@@ -76,7 +76,7 @@ cd "/Users/piotrek/Desktop/Apache Airflow/airflow_sqlite_etl"
 source venv/bin/activate
 export AIRFLOW_HOME=$(pwd)/airflow_home
 export AIRFLOW__CORE__DAGS_FOLDER=$(pwd)/dags
-# (Tylko przy pierwszym uruchomieniu lub po czyszczeniu bazy)
+# (Only by first run or clean database)
 airflow db init
 # Add user (only once, if does not exist)
 airflow users create \
